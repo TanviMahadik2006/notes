@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Irrigation Methods</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background: linear-gradient(to right, #e0f7fa, #b2ebf2);
+      margin: 0;
+      padding: 0;
+    }
+
+    header {
+      background-color: #00695c;
+      color: white;
+      padding: 1.5rem;
+      text-align: center;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    .container {
+      padding: 2rem;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 8px 16px rgba(0,0,0,0.15);
+      padding: 2rem;
+      text-align: center;
+      transition: transform 0.3s ease, box-shadow 0.3s ease;
+    }
+
+    .card:hover {
+      transform: translateY(-10px);
+      box-shadow: 0 12px 24px rgba(0,0,0,0.2);
+    }
+
+    .card h2 {
+      color: #00796b;
+      margin-bottom: 1rem;
+    }
+
+    .card p {
+      color: #555;
+      font-size: 1rem;
+    }
+
+    footer {
+      background-color: #004d40;
+      color: white;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+    }
+
+    form {
+      background-color: white;
+      border-radius: 12px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      padding: 2rem;
+      margin: 2rem auto;
+      max-width: 600px;
+    }
+
+    form label {
+      display: block;
+      margin-bottom: 0.5rem;
+      font-weight: bold;
+    }
+
+    form select, form button {
+      width: 100%;
+      padding: 0.8rem;
+      margin-bottom: 1rem;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      font-size: 1rem;
+    }
+
+    form button {
+      background-color: #00796b;
+      color: white;
+      border: none;
+      cursor: pointer;
+    }
+
+    form button:hover {
+      background-color: #004d40;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Irrigation Methods</h1>
+    <p>Explore different types of irrigation techniques</p>
+  </header>
+
+  <form action="/submit" method="POST">
+    <label for="method">Choose an irrigation method:</label>
+    <select name="method" id="method">
+      <option value="drip">Drip Irrigation</option>
+      <option value="sprinkle">Sprinkle Irrigation</option>
+      <option value="surface">Surface Irrigation</option>
+      <option value="subsurface">Subsurface Irrigation</option>
+    </select>
+    <button type="submit">Submit</button>
+  </form>
+
+  <main class="container">
+    <div class="card">
+      <h2>Drip Irrigation</h2>
+      <p>Delivers water directly to the roots of plants through a system of tubes, valves, and emitters. Highly efficient for water conservation.</p>
+    </div>
+    <div class="card">
+      <h2>Sprinkle Irrigation</h2>
+      <p>Sprays water over the field like rainfall using a system of pipes and sprinklers. Suitable for many types of crops.</p>
+    </div>
+    <div class="card">
+      <h2>Surface Irrigation</h2>
+      <p>Water flows over the soil surface to the crops. Common in traditional farming and cost-effective but less efficient.</p>
+    </div>
+    <div class="card">
+      <h2>Subsurface Irrigation</h2>
+      <p>Water is delivered below the soil surface through a network of buried pipes. Efficient but costly and complex to install.</p>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Irrigation Info Center. All rights reserved.</p>
+  </footer>
+</body>
+</html>

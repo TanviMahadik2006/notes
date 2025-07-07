@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: arial;
+    border: border-box;
+}
+.nav-logo{
+    height: 50px;
+    width: 110px;
+
+}
+.navbar{
+    height: 80px;
+    background-color: #0c0b0b;
+    color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.logo{
+    background-image: url(ama.jpg);
+    background-size: cover;
+    height: 50px;
+    width: 110px;
+    cursor: pointer;
+}
+.border{
+    border: 2px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.ad1{
+  color: #cccccc;
+  font-size: 0.85rem;
+  margin-left: 15px;
+  cursor: pointer;
+}
+.ad2{
+    font-size: 1rem;
+    margin-left: 3px;
+    cursor: pointer;
+}
+.add-icon{
+    display: flex;
+    align-items: centre;
+}   
+
+.nav-search{
+    display:flex ;
+    justify-content: space-evenly;
+    background-color: rgb(250, 161, 79);
+    height: 40px;
+    width: 620px;
+    border-radius: 4px;
+    
+}
+.search{
+    background-color: rgb(213, 214, 214);
+    text-align: center;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width:100%;
+    font-size: 1.25rem;
+    border: none;
+
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.2rem;
+    color: #0F1111;
+    cursor: pointer;
+}
+.nav-search:hover{
+    border: 2px solid rgb(246, 152, 38);
+}
+.cntry{
+    background-image: url(indflg.jpeg);
+    background-size: cover;
+    height: 60px;
+    width: 60px;
+    cursor: pointer;
+}
+span{
+    font-size: 0.7rem;
+}
+.id1{
+    font-size: 1rem;
+    font-weight: 700;
+    cursor: pointer;
+}
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 1.4rem;
+    font-weight: 400;
+    cursor: pointer;
+}
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: rgb(253, 253, 253);
+    align-items: center;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.9rem;
+}
+.panel-deals{
+    font-size: 1rem;
+    font-weight: 500;
+}
+.hero-section{
+    background-image:url(ama2.jpg) ;
+    background-size: cover;
+    height: 600px;
+    display: flex;
+    justify-content:center ;
+}
+.heromsg{
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 30px;
+    position: relative;
+    top:500px;
+    font-size: 0.85rem;
+    width: 80%;
+}
+.al{
+    color: rgb(7, 174, 118);
+    cursor: pointer;
+    
+}
+.shop-section{
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-evenly;
+   background-color: wh;
+}
+.box{
+    border: 2px solid rgb(0, 0, 0);
+    height: 400px;
+    width:23% ;
+    background-color: white;
+    padding: 10px 0px 15px; 
+}
+.boximg{
+    background-size: cover;
+    height: 350px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.h2{
+
+    display: flex;
+    justify-content: center;
+}
+.p{
+    display: flex;
+    justify-content: center;
+    color: rgb(58, 67, 255);
+    cursor: pointer  ;
+}
+footer{
+    margin-top: 15px;
+}
+.foot-panel1{
+    background-color: #37475a;
+    height: 50px;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size:0.95rem ;
+
+}
+.foot-panel2{
+    background-color:#222f3d ;
+    color: white;
+    height: 350px;
+    display: flex;
+    justify-content: space-evenly ;
+}
+ul a{
+    display: block;
+    font-size: 0.95rem;
+    margin-top: 10px;
+    color: white;
+}
+.fooot-panel3{
+    background-color: #222f3d;
+     color: white;
+     border-top: 2px solid white;
+}
